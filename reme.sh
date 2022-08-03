@@ -56,11 +56,6 @@ function REME {
     fi
 }
 
-function firmwalker {
-  echo "firmwalker"
-
-}
-
 function menu {
   clear
   /usr/bin/figlet -f digital -c REME #isometric2 font doesnt work?
@@ -75,8 +70,7 @@ cat << "EOF"
 EOF
   echo -e "\t\t\tReverse Engineering Made Easy\n"
   echo -e "\t\t\t1. binwalk"
-  echo -e "\t\t\t2. firmwalker"
-  echo -e "\t\t\t3. REME"
+  echo -e "\t\t\t2. REME"
   echo -e "\t\t\t0. Exit\n\n"
   echo -en "\t\t\tEnter option: \n"
   read -n 1 option
@@ -91,8 +85,6 @@ do
     1)
       binwalk ;;
     2)
-      firmwalker ;;
-    3)
       REME ;;
     *)
       clear
