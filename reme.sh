@@ -58,7 +58,7 @@ function REME {
 
 function menu {
   clear
-  /usr/bin/figlet -f digital -c REME #isometric2 font doesnt work?
+  /usr/bin/figlet -f digital -c REME
 cat << "EOF"
     .-.                                                               .-.
    /   \           .-.                                 .-.           /   \
